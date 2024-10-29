@@ -11,6 +11,7 @@ header {
     justify-content: space-between;
 }
 header > div {
+    z-index: 3;
     display: flex;
     background-color: #C6AF97;
     width: auto;
@@ -204,7 +205,6 @@ margin-top: -110px;
 margin-right: 1300px;
 }
 #br2 {
-
 margin-right: 1378px;
 }
 #gr1 {
@@ -236,10 +236,139 @@ margin-right: 1378px;
 }
 #br3 {
     margin-right: 1358px;
-
 }
+
+.Deviz2 {
+    margin-top: -120px;
+    justify-content: center;
+    display: flex;
+    }
+    #br1-2 {
+        margin-right: 1190px;
+        }
+        #br2-2 {
+        margin-right: 1350px;
+        }
+        #gr1-2 {
+            margin-right: 100px;
+            margin-left: 15px;
+        font-weight: bolder;
+        }
+        .gr1-2 {
+            display: flex;
+            align-items: center;
+        }
+        .gr1-2 > p {
+            font-size: 60px;
+            color: #879759;
+        }
+        #gr2-2 {
+            margin-left: 20px;
+        }
+        #br3-2 {
+            margin-right: 1358px;
+        }
+        #br3-2 > p {
+            color: #879759;
+        }
+        .yea {
+            display: flex;
+        }
+
+        .frame2-text {
+            display: flex;
+            flex-direction: column;
+        }
+    .gr-2 {
+        display: flex;
+        align-items: center;
+    }
+    .gr-2 > p {
+        font-size: 64px;
+        color: #879759;
+    }
+    .br-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 19px;
+    }
+    .br-2 > p {
+        font-size: 64px;
+        font-weight: bold;
+        color: #3F3C0F;
+    }
+
+
+    .Deviz3 {
+        margin-top: -120px;
+        justify-content: center;
+        display: flex;
+        }
+        #br1-3 {
+            margin-right: 1130px;
+            }
+            #br2-3 {
+            margin-right: 1350px;
+            }
+            #gr1-3 {
+                margin-right: 100px;
+                margin-left: 15px;
+            font-weight: bolder;
+            }
+            .gr1-3 {
+                display: flex;
+                align-items: center;
+            }
+            .gr1-3 > p {
+                font-size: 60px;
+                color: #879759;
+            }
+            #gr2-3 {
+                margin-left: 20px;
+            }
+            #br3-3 {
+                margin-right: 1358px;
+            }
+            #br3-3 > p {
+                color: #879759;
+            }
+            .frame3-text {
+                display: flex;
+                flex-direction: column;
+            }
+        .gr-3 {
+            display: flex;
+            align-items: center;
+        }
+        .gr-3 > p {
+            font-size: 64px;
+            color: #879759;
+        }
+        .br-3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 19px;
+        }
+        .br-3 > p {
+            font-size: 64px;
+            font-weight: bold;
+            color: #3F3C0F;
+        }
+
+
+
 .frame1-img {
     margin-top: -400px;
+    margin-left: 200px;
+}
+.frame2-img {
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.frame3-img {
+    margin-top: -150px;
     margin-left: 200px;
 }
 
@@ -248,15 +377,15 @@ margin-right: 1378px;
 }
 
 #slides .frame_2 {
-    background: #F90;
+    background: rgb(255, 255, 255);
 }
 
 #slides .frame_3 {
-    background: #606;
+    background: rgb(255, 255, 255);
 }
 
 #slides .frame_4 {
-    background: #C00;
+    background: rgb(255, 255, 255);
 }
 
 #controls {
@@ -387,7 +516,15 @@ margin-right: 1378px;
     background: #3F3C0F;
     color: #C8C495;
 }
-
+#but1-2 {
+    color: #C8C495;
+    background: #3F3C0F;
+}
+#but1-2:hover{
+    transition: 0.2s ease-in-out;
+    background: #C8C495;
+    color: #3F3C0F;
+}
 .frame1-rbut {
     margin-left: 1200px;
     border-radius: 15px;
@@ -399,6 +536,38 @@ margin-right: 1378px;
     color: #3F3C0F;
 }
 #but2:hover{
+    transition: 0.2s ease-in-out;
+    background: #C6AF97;
+    color: #000000;
+}
+.frame2-rbut {
+    margin-left: 1200px;
+    border-radius: 15px;
+    margin-top: 70px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    background-color: #C8C495;
+    text-decoration: none;
+    color: #3F3C0F;
+}
+#but2-2:hover{
+    transition: 0.2s ease-in-out;
+    background: #C6AF97;
+    color: #000000;
+}
+.frame3-rbut {
+    margin-left: 1200px;
+    border-radius: 15px;
+    margin-top: 70px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    background-color: #C8C495;
+    text-decoration: none;
+    color: #3F3C0F;
+}
+#but2-3:hover{
     transition: 0.2s ease-in-out;
     background: #C6AF97;
     color: #000000;
