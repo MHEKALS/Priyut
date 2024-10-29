@@ -356,6 +356,61 @@ margin-right: 1378px;
             font-weight: bold;
             color: #3F3C0F;
         }
+        .Deviz4 {
+            margin-top: -105px;
+            justify-content: center;
+            display: flex;
+            padding-bottom: 100px;
+            }
+            #br1-4 {
+                margin-right: 1210px;
+                }
+                #br2-4 {
+                margin-right: 1330px;
+                }
+                #gr1-4 {
+                    margin-right: 100px;
+                    margin-left: 15px;
+                font-weight: bolder;
+                }
+                .gr1-4 {
+                    display: flex;
+                    align-items: center;
+                }
+                .gr1-4 > p {
+                    font-size: 60px;
+                    color: #879759;
+                }
+                #gr2-4 {
+                    margin-left: 20px;
+                }
+                #br3-4 {
+                    margin-right: 1358px;
+                }
+                .frame4-text {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 100px;
+                }
+            .gr-4 {
+                display: flex;
+                align-items: center;
+            }
+            .gr-4 > p {
+                font-size: 64px;
+                color: #879759;
+            }
+            .br-4 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-left: 19px;
+            }
+            .br-4 > p {
+                font-size: 64px;
+                font-weight: bold;
+                color: #3F3C0F;
+            }
 
 
 
@@ -369,6 +424,10 @@ margin-right: 1378px;
 }
 .frame3-img {
     margin-top: -150px;
+    margin-left: 200px;
+}
+.frame4-img {
+    margin-top: -500px;
     margin-left: 200px;
 }
 
@@ -568,6 +627,22 @@ margin-right: 1378px;
     color: #3F3C0F;
 }
 #but2-3:hover{
+    transition: 0.2s ease-in-out;
+    background: #C6AF97;
+    color: #000000;
+}
+.frame4-rbut {
+    margin-left: 1200px;
+    border-radius: 15px;
+    margin-top: -100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    background-color: #C8C495;
+    text-decoration: none;
+    color: #3F3C0F;
+}
+#but2-4:hover{
     transition: 0.2s ease-in-out;
     background: #C6AF97;
     color: #000000;
