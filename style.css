@@ -18,7 +18,7 @@ header > div {
   height: 136px;
   align-items: center;
 }
-header > div > div > img {
+header > div > div > a > img {
   width: 117px;
   height: 109px;
   margin-left: 134px;
