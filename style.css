@@ -28,11 +28,13 @@ header > div > div > div > a {
     color: black;
     font-size: 36px;
     margin-left: 50px;
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .Bold > a {
     font-size: 46px;
     font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 header > nav > ul {
@@ -64,13 +66,13 @@ nav a {
   .topmenu {
     backface-visibility: hidden;
     background: #C6AF97;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .topmenu > li {
     display: inline-block;
     position: relative;
   }
   .topmenu > li > a {
-    font-weight: bold;
     text-transform: uppercase;
   }
   .down:after {
@@ -109,6 +111,8 @@ nav a {
     justify-content: center;
 }
 .gr {
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     align-items: center;
 }
@@ -116,7 +120,21 @@ nav a {
     font-size: 64px;
     color: #879759;
 }
+.brd {
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brd > p {
+    font-size: 64px;
+    padding-left: 19px;
+    font-weight: bold;
+    color: #3F3C0F;
+}
 .br {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,16 +218,21 @@ nav a {
 }
 .Deviz {
 margin-top: -110px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 #br1 {
 margin-right: 1300px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #br2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 margin-right: 1378px;
 }
 #gr1 {
     margin-right: 100px;
     margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .gr1 {
@@ -219,8 +242,10 @@ margin-right: 1378px;
 .gr1 > p {
     font-size: 50px;
     color: #879759;
+    
 }
 .gr-small {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 436px;
     height: 159px;
     display: flex;
@@ -239,17 +264,21 @@ margin-right: 1378px;
 }
 
 .Deviz2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: -120px;
     justify-content: center;
     display: flex;
     }
     #br1-2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin-right: 1190px;
         }
         #br2-2 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin-right: 1350px;
         }
         #gr1-2 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             margin-right: 100px;
             margin-left: 15px;
         font-weight: bolder;
@@ -651,7 +680,7 @@ margin-right: 1378px;
 footer {
     display: flex;
     height: 200px;
-    width: 1920px;
+    width: 100%;
     background-color: #674B36;
     position: absolute;
     top: 880px;
