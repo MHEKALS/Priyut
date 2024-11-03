@@ -1,0 +1,162 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+
+  font-family: "Mulish", sans-serif;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6af97;
+  align-items: center;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1em;
+}
+
+.Header-left-cont ul {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.Header-left-cont ul a {
+  color: #010101;
+  font-size: 2em;
+  gap: 2em;
+}
+
+.Header-left-cont ul a img {
+  height: 1em;
+}
+
+.Header-right-cont ul {
+  display: flex;
+  gap: 2em;
+}
+
+.Header-right-cont ul a {
+  color: #534031;
+  font-size: 2em;
+  gap: 2em;
+}
+
+.body {
+  background-color: #ede7e7;
+}
+
+/* FOOTER  */
+
+.gg {
+  align-items: end;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #674b36;
+  align-items: center;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.Footer-left-cont ul {
+  display: flex;
+  align-items: center;
+  color: #c6af97;
+  gap: 2em;
+}
+
+.Footer-left-cont ul {
+  font-size: 2em;
+}
+
+.Footer-left-cont ul a {
+  color: #010101;
+  font-size: 2em;
+  gap: 2em;
+}
+
+.Footer-left-cont ul a img {
+  height: 3em;
+}
+
+.Footer-right-cont ul {
+  font-size: 2em;
+  color: #c6af97;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.Footer-right-cont img {
+  height: 4em;
+}
+
+.Footer-right-cont ul a {
+  color: #534031;
+  font-size: 2em;
+  gap: 2em;
+}
+.ff {
+  background-color: #ede7e7;
+}
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.three-glav-text {
+  font-weight: bold;
+}
+
+.Glav-first-two {
+  color: #879759;
+  font-size: 2em;
+  text-align: center;
+}
+
+.Glav-first {
+  color: #3f3c0f;
+  font-size: 2em;
+}
+
+.Body ul {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 1.5em;
+  color: #3f3c0f;
+}
+
+.Glav {
+  display: flex;
+  justify-content: center;
+  color: #879759;
+  font-size: 2em;
+}
+
+.Body-four-cont ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+
+.Body-five-cont ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+
+.Body-five-cont a {
+  font-weight: bold;
+  color: #3f3c0f;
+}
