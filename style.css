@@ -65,6 +65,7 @@ nav a {
   outline: none;
   transition: 0.4s ease-in-out;
 }
+#menu{display: none;}
 .meny{display: none;}
 .topmenu {
   backface-visibility: hidden;
@@ -766,6 +767,56 @@ footer > div > div > a {
   .logo{display: none;}
   .topmenu{display: none;}
   .meny{display: block;}
+  #menu{display: block;}
+  .menu{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    top: 49px;
+    left: 360px;
+  }
+  
+  .menu li{
+    list-style: none;
+    position: relative;
+    font-size: 12px;
+    background-color: #c6af97;
+  }
+  
+  .menu a{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    height: 40px;
+  
+  }
+  
+  .menu ul{
+    margin-top: 44px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+  }
+  
+  
+  .menu li:hover > ul{
+    display: block;
+  }
+  
+  .menu ul ul{
+    margin-top: -40px;
+    display: none;
+    position: absolute;
+    left: -85px;
+  }
+  
+  #pod-menu li{
+    margin-left: 16px;
+  }
   nav > div> a{
     display: flex;
     margin: 20px;
