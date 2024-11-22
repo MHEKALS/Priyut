@@ -244,7 +244,9 @@ nav a {
 .dog-1>div>img {
   width: 260px;
 }
-
+.logo {
+  margin-left: 100px;
+}
 .dog-2 {
   display: flex;
   flex-direction: column;

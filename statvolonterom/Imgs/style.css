@@ -138,7 +138,9 @@ nav a {
   flex-direction: column;
   gap: 30px;
 }
-
+.logo {
+  margin-left: 100px;
+}
 .Heading-text {
   display: flex;
   justify-content: center;

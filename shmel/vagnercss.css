@@ -86,7 +86,9 @@ nav a {
 .topmenu>li>a {
   text-transform: uppercase;
 }
-
+.logo {
+  margin-left: 100px;
+}
 .down:after {
   margin-left: 8px;
 }

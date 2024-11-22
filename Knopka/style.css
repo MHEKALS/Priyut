@@ -131,7 +131,9 @@ nav a {
   font-family: 'Kurale', serif;
   padding-top: 10px;
 }
-
+.logo {
+  margin-left: 100px;
+}
 footer {
   display: flex;
   height: 200px;

@@ -121,7 +121,9 @@ nav a {
   opacity: 1;
   transform: perspective(600px) rotateX(0deg);
 }
-
+.logo {
+  margin-left: 100px;
+}
 .submenu>li>a {
   color: #3f3c0f;
   font-size: 30px;

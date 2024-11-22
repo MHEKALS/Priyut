@@ -116,7 +116,9 @@ header>nav>ul>li>a {
   padding-top: 10px;
 }
 
-
+.logo {
+  margin-left: 100px;
+}
 nav ul {
   list-style: none;
   margin: 0;

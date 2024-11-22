@@ -13,7 +13,9 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
+.logo {
+  margin-left: 100px;
+}
 header>div {
   z-index: 3;
   display: flex;

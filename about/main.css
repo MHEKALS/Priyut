@@ -117,7 +117,9 @@ header > nav > ul > li > a {
   font-family: "Kurale", serif;
   padding-top: 10px;
 }
-
+.logo {
+  margin-left: 100px;
+}
 
 nav ul {
   list-style: none;
