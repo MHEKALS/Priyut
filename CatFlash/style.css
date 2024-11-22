@@ -1,167 +1,171 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
 }
+
 header {
   display: flex;
-  background-color: #c6af97;
+  background-color: #C6AF97;
   width: auto;
   height: 136px;
   align-items: center;
   justify-content: space-between;
 }
 
-header > div {
+header>div {
   z-index: 3;
   display: flex;
-  background-color: #c6af97;
+  background-color: #C6AF97;
   width: auto;
   height: 136px;
   align-items: center;
 }
-header > div > div > a > img {
+
+header>div>div>img {
   width: 117px;
   height: 109px;
   margin-left: 134px;
 }
-header > div > div > div > a {
+
+header>div>div>div>a {
   text-decoration: none;
   color: black;
   font-size: 36px;
   margin-left: 50px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-.Bold > a {
-  font-size: 46px;
-  font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
 }
 
-header > nav > ul {
+.Bold>a {
+  font-size: 46px;
+  font-weight: 400;
+}
+
+header>nav>ul {
   display: flex;
   width: auto;
   align-items: center;
 }
-header > nav > ul > li {
+
+header>nav>ul>li {
   list-style: none;
   padding-right: 50px;
   font-size: 36px;
   z-index: 5;
 }
-header > nav > ul > li > a {
+
+header>nav>ul>li>a {
   text-decoration: none;
   color: #534031;
 }
-.minilogo {
-  display: none;
-}
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 nav a {
   display: block;
   text-decoration: none;
   outline: none;
-  transition: 0.4s ease-in-out;
+  transition: .4s ease-in-out;
 }
-#menu {
-  display: none;
-}
-.meny {
-  display: none;
-}
+
 .topmenu {
   backface-visibility: hidden;
-  background: #c6af97;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin-right: 60px;
+  background: #C6AF97;
 }
-.topmenu > li {
+
+.topmenu>li {
   display: inline-block;
   position: relative;
 }
-.topmenu > li > a {
+
+.topmenu>li>a {
   text-transform: uppercase;
 }
+
 .down:after {
   margin-left: 8px;
 }
+
 .topmenu li a:hover {
   color: white;
 }
+
+.minilogo {
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+
 .submenu {
-  background: #c8c495;
+  background: #C8C495;
   position: absolute;
   left: 0;
-  top: 89px;
+  top: 80px;
   visibility: hidden;
   opacity: 0;
   z-index: 5;
   width: 250px;
   transform: perspective(600px) rotateX(-90deg);
   transform-origin: 0% 0%;
-  transition: 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: .6s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.topmenu > li:hover .submenu {
+
+.topmenu>li:hover .submenu {
   visibility: visible;
   opacity: 1;
   transform: perspective(600px) rotateX(0deg);
 }
-.submenu > li > a {
-  color: #3f3c0f;
+
+.submenu>li>a {
+  color: #3F3C0F;
   font-size: 30px;
   line-height: 36px;
   padding: 0 25px;
-  font-family: "Kurale", serif;
+  font-family: 'Kurale', serif;
   padding-top: 10px;
 }
 
 footer {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   height: 200px;
   width: 100%;
   background-color: #674b36;
   position: absolute;
-  top: 2350px;
+  top: 2500px;
   align-items: center;
   justify-content: space-between;
 }
+
 .foot-text {
   margin-left: 116px;
 }
 
-footer > div > div > a {
+footer>div>div>a {
   color: #c6af97;
   text-decoration: none;
   font-size: 32px;
 }
-.soc-seti > div {
+
+.soc-seti>div {
   display: flex;
   margin-right: 116px;
   margin-top: 10px;
 }
-.soc-seti > div > p {
+
+.soc-seti>div>p {
   font-size: 32px;
   color: #c6af97;
 }
-.soc-seti > div > div {
+
+.soc-seti>div>div {
   padding-left: 20px;
-}
-.vk_mini {
-  display: none;
-}
-.insta_mini {
-  display: none;
-}
-.tg_mini {
-  display: none;
 }
 
 .link {
@@ -234,7 +238,7 @@ footer > div > div > a {
   justify-content: space-between;
 }
 
-.kot {
+.eblan {
   font-weight: 600;
 }
 
@@ -248,7 +252,7 @@ footer > div > div > a {
   margin-top: -70px;
 }
 
-.pkot {
+.peblan {
   font-weight: 400;
   font-size: 30px;
   word-spacing: 2px;
@@ -265,7 +269,7 @@ footer > div > div > a {
   margin-top: -75px;
 }
 
-.trio {
+.tridayn {
   width: 1600px;
   height: 700px;
   display: flex;
@@ -317,4 +321,343 @@ footer > div > div > a {
 .link {
   text-decoration: none;
   color: #3f3c0f;
+}
+
+
+
+
+
+
+.vk_mini {
+  display: none;
+}
+
+.tg_mini {
+  display: none;
+}
+
+.insta_mini {
+  display: none;
+}
+
+@media (max-width: 395px) {
+  header>div>div>a>img {
+    width: 53px;
+    height: 49px;
+    margin-top: 3px;
+    margin-left: 15px;
+  }
+
+  header>div>div>div>a {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    margin-left: 23px;
+  }
+
+  header {
+    height: 75px;
+  }
+
+  .head {
+    height: 75px;
+  }
+
+  .Bold>a {
+    font-size: 20px;
+    margin-left: 23px;
+  }
+
+  .minilogo {
+    display: block;
+    width: 53px;
+    height: 49px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .topmenu {
+    display: none;
+  }
+
+  .meny {
+    display: block;
+    margin-left: 15px;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    top: 19px;
+    left: 324px;
+  }
+
+  .menu li {
+    list-style: none;
+    position: relative;
+    font-size: 12px;
+    background-color: #c6af97;
+  }
+
+  .menu a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    height: 40px;
+
+  }
+
+  .menu ul {
+    margin-top: 11px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+    display: none;
+    padding: 0;
+  }
+
+
+  .menu li:hover>ul {
+    display: block;
+  }
+
+  .menu ul ul {
+    margin-top: -40px;
+    display: none;
+    position: absolute;
+    left: -81px;
+  }
+
+  #pod-menu li {
+    margin-left: 16px;
+  }
+
+  nav>div>a {
+    display: flex;
+    margin: 20px;
+  }
+}
+
+
+
+@media (max-width: 395px) {
+  .GreenInfoBlock {
+    width: 354.67px;
+    height: 134.79px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-right: 10px;
+  }
+
+  .GreenInfoBlock>.flash>img {
+    width: 65px;
+    height: 96px;
+  }
+
+  .img {
+    width: 103px;
+    height: 156px;
+    margin-left: 146px;
+    gap: 35px;
+    margin-top: 20px;
+  }
+
+  .text>.eblan {
+    font-size: 9.65px;
+  }
+
+  .text>.chycha {
+    font-size: 9.65px;
+  }
+
+  .peblan {
+    font-size: 9.65px;
+  }
+
+  .volonter {
+    font-size: 9.65px;
+  }
+
+  .tilifon {
+    font-size: 9.65px;
+  }
+
+  .Nikita {
+    font-size: 11.58px;
+  }
+
+  .Nomer {
+    font-size: 11.58px;
+    padding-top: 3px;
+  }
+
+  .text5 {
+    font-size: 11.58px;
+  }
+
+  .text6 {
+    font-size: 11.58px;
+  }
+
+  .text5>p {
+    margin-top: -65px;
+  }
+
+  .text6 {
+    margin-top: -85px;
+
+  }
+
+  .button {
+    top: 800px;
+    left: 125px;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-top: -75px;
+  }
+
+  .button>.button1 {
+    width: 126.11px;
+    height: 43.53px;
+  }
+
+  .button>.button1>a {
+    font-size: 14.91px;
+    font-weight: 900;
+  }
+
+  .BlockInCat {
+    margin-left: 130px;
+    margin-top: 15px;
+    width: 210px;
+    height: 137px;
+  }
+
+  .text4 {
+    margin-top: 0px;
+  }
+
+  .text2 {
+    margin-top: 70px;
+    padding-bottom: 8px;
+  }
+
+  .text3 {
+    margin-top: 10px;
+  }
+
+  .flash {
+    top: 5px;
+    left: 0px;
+    margin-left: 45px;
+  }
+
+  .text999 {
+    font-size: 11px;
+    width: 353px;
+    height: 200px;
+    margin-top: -25px;
+    margin-left: 10px;
+  }
+
+  .dayn1>img {
+    width: 105px;
+    height: 158px;
+  }
+
+  .dayn2>img {
+    width: 105px;
+    height: 158px;
+  }
+
+  .dayn3>img {
+    width: 105px;
+    height: 158px;
+  }
+
+  .tridayn {
+    margin-top: 25px;
+    width: 390px;
+    height: 200px;
+    margin-left: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 395px) {
+  footer {
+    z-index: 10;
+    height: 88px;
+    top: 800px;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  footer>div>div>a {
+    color: #c6af97;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .vk_mini {
+    display: block;
+  }
+
+  .vk {
+    display: none;
+  }
+
+  .insta_mini {
+    display: block;
+  }
+
+  .insta {
+    display: none;
+  }
+
+  .tg_mini {
+    display: block;
+  }
+
+  .tg {
+    display: none;
+  }
+
+  .soc-seti>div>p {
+    font-size: 13px;
+  }
+
+  .foot-text {
+    margin-left: 0px;
+  }
+
+  .soc-seti>div {
+    margin-right: 1px;
+  }
+
+  .soc-seti>div>div {
+    padding-left: 5px;
+  }
 }

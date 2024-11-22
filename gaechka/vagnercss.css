@@ -1,109 +1,113 @@
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    font-family: "Mulish", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
 }
 header {
-    display: flex;
-    background-color: #C6AF97;
-    width: auto;
-    height: 136px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  background-color: #C6AF97;
+  width: auto;
+  height: 136px;
+  align-items: center;
+  justify-content: space-between;
 }
 header > div {
-    z-index: 3;
-    display: flex;
-    background-color: #C6AF97;
-    width: auto;
-    height: 136px;
-    align-items: center;
+  z-index: 3;
+  display: flex;
+  background-color: #C6AF97;
+  width: auto;
+  height: 136px;
+  align-items: center;
 }
 header > div > div > img {
-    width: 117px;
-    height: 109px;
-    margin-left: 134px;
+  width: 117px;
+  height: 109px;
+  margin-left: 134px;
 }
 header > div > div > div > a {
-    text-decoration: none;
-    color: black;
-    font-size: 36px;
-    margin-left: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 36px;
+  margin-left: 50px;
 
 }
 .Bold > a {
-    font-size: 46px;
-    font-weight: 400;
+  font-size: 46px;
+  font-weight: 400;
 }
 
 header > nav > ul {
-    display: flex;
-    width: auto;
-    align-items: center;
+  display: flex;
+  width: auto;
+  align-items: center;
 }
 header > nav > ul > li {
-    list-style: none;
-    padding-right: 50px;
-    font-size: 36px;
-    z-index: 5;
+  list-style: none;
+  padding-right: 50px;
+  font-size: 36px;
+  z-index: 5;
 }
 header > nav > ul > li > a {
-    text-decoration: none;
-    color: #534031;
+  text-decoration: none;
+  color: #534031;
 }
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 nav a {
-    display: block;
-    text-decoration: none;
-    outline: none;
-    transition: .4s ease-in-out;
-  }
-  .topmenu {
-    backface-visibility: hidden;
-    background: #C6AF97;
-  }
-  .topmenu > li {
-    display: inline-block;
-    position: relative;
-  }
-  .topmenu > li > a {
-    text-transform: uppercase;
-  }
-  .down:after {
-    margin-left: 8px;
-  }
-  .topmenu li a:hover { color: white; }
-  .submenu {
-    background: #C8C495;
-    position: absolute;
-    left: 0;
-    top: 89px;
-    visibility: hidden;
-    opacity: 0;
-    z-index: 5;
-    width: 250px;
-    transform: perspective(600px) rotateX(-90deg);
-    transform-origin: 0% 0%;
-    transition: .6s cubic-bezier(0.19, 1, 0.22, 1);
-  }
-  .topmenu > li:hover .submenu{
-    visibility: visible;
-    opacity: 1;
-    transform: perspective(600px) rotateX(0deg);
-  }
-  .submenu > li > a {
-    color: #3F3C0F;
-    font-size: 30px;
-    line-height: 36px;
-    padding: 0 25px;
-    font-family: 'Kurale', serif;
-    padding-top: 10px;
-  }
+  display: block;
+  text-decoration: none;
+  outline: none;
+  transition: .4s ease-in-out;
+}
+.topmenu {
+  backface-visibility: hidden;
+  background: #C6AF97;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+}
+.down:after {
+  margin-left: 8px;
+}
+.topmenu li a:hover { color: white; }
+
+.minilogo { display: none;}
+#menu {display: none;}
+
+.submenu {
+  background: #C8C495;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 5;
+  width: 250px;
+  transform: perspective(600px) rotateX(-90deg);
+  transform-origin: 0% 0%;
+  transition: .6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.topmenu > li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+  transform: perspective(600px) rotateX(0deg);
+}
+.submenu > li > a {
+  color: #3F3C0F;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 0 25px;
+  font-family: 'Kurale', serif;
+  padding-top: 10px;
+}
 
   .GreenInfoBlock{
     height:600px;
@@ -291,3 +295,222 @@ footer > div > div > a {
 .soc-seti > div > div {
     padding-left: 20px;
 }
+
+
+
+
+
+
+
+.vk_mini {display: none;}
+.tg_mini {display: none;}
+.insta_mini {display: none;}
+@media (max-width: 395px){
+  header > div > div > a > img {
+    width: 53px;
+    height: 49px;
+    margin-top: 3px;
+    margin-left: 15px;
+  }
+  header > div > div > div > a {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  margin-left: 23px;
+  }
+
+  header{
+    height: 75px;
+  }
+  .head{
+    height: 75px;
+  }
+  
+ .Bold > a{
+  font-size: 20px;
+  margin-left: 23px;
+  }
+  .minilogo{display: block;
+       width: 53px;
+       height: 49px;}
+  .logo{display: none;}
+  .topmenu{display: none;}
+  .meny{display: block; margin-left: 15px;}
+  #menu{display: block;}
+  .menu{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    top: 19px;
+    left: 324px;
+  }
+  .menu li{
+    list-style: none;
+    position: relative;
+    font-size: 12px;
+    background-color: #c6af97;
+  }
+  
+  .menu a{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    height: 40px;
+  
+  }
+  .menu ul{
+    margin-top: 11px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+    display: none;
+    padding: 0;
+  }
+  
+  
+  .menu li:hover > ul{
+    display: block;
+  }
+  
+  .menu ul ul{
+    margin-top: -40px;
+    display: none;
+    position: absolute;
+    left: -81px;
+  }
+  
+  #pod-menu li{
+    margin-left: 16px;
+  }
+  nav > div> a{
+    display: flex;
+    margin: 20px;
+  }
+}
+
+
+  @media (max-width: 395px){
+    .GreenInfoBlock{
+      width: 354.67px;
+      height: 134.79px;
+      margin-left: 15px;
+      margin-top: 15px;
+      padding-right: 10px;
+    }
+    .GreenInfoBlock > .flash > img{
+      width: 65px;
+      height: 96px;
+    }
+     .img{
+      width: 103px;
+      height: 156px;
+      margin-left: 146px;
+      gap: 25px;
+      margin-top: 20px;
+    }
+    .text > .eblan{
+      font-size: 9.65px;
+    }
+    .text > .chycha{
+      font-size: 9.65px;
+    }
+    .peblan{
+      font-size: 9.65px;
+    }
+    .volonter{
+      font-size: 9.65px;
+    }
+    .tilifon{
+      font-size: 9.65px;
+    }
+    .Nikita{
+      font-size: 11.58px;
+    }
+    .Nomer{
+      font-size: 11.58px;
+      padding-top: 3px;
+    }
+    .text5{
+      font-size: 11.58px;
+    }
+    .text6{
+      font-size: 11.58px;
+    }
+    .text5 > p{
+      margin-top: -75px;
+    }
+    .text6{
+      margin-top: -85px;
+  
+    }
+    .button{
+      margin-left: 0px;
+      padding-top: 0px;
+      margin-top: -55px;
+      margin-left: 10px;
+    }
+    .button > .button1 {
+      width: 126.11px;
+      height: 43.53px;
+  }
+    .button > .button1 > a{
+    font-size: 14.91px;
+    }
+    .BlockInCat{
+      margin-left: 130px;
+      margin-top: 15px;
+      width: 210px;
+      height: 137px;
+    } 
+    .text4{
+      margin-top: 0px;
+    }
+    .text2{
+      margin-top: 70px;
+      padding-bottom: 8px;
+    }
+    .text3{
+      margin-top:10px;
+    }
+    .flash{
+      top: 5px;
+      left: 0px;
+      margin-left: 45px;
+    }
+  }
+  
+
+
+
+@media (max-width: 395px){
+  footer{ 
+    z-index: 10;
+    height: 88px;
+    top: 800px;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  footer > div > div > a {
+    color: #c6af97;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .vk_mini{display: block;}
+  .vk{display: none;}
+  .insta_mini{display: block;}
+  .insta{display: none;}
+  .tg_mini{display: block;}
+  .tg{display: none;}
+  .soc-seti > div > p{
+    font-size: 13px;
+  }
+  .foot-text {
+    margin-left: 0px;
+  }
+  .soc-seti > div {margin-right: 1px;}
+  .soc-seti > div > div {padding-left: 5px;}
+  }

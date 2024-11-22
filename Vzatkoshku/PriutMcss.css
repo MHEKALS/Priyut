@@ -1,8 +1,10 @@
 * {
-  padding: 0;
   margin: 0;
-  list-style: none;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
 }
+
 header {
   display: flex;
   background-color: #c6af97;
@@ -11,7 +13,8 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-header > div {
+
+header>div {
   z-index: 3;
   display: flex;
   background-color: #c6af97;
@@ -19,80 +22,92 @@ header > div {
   height: 136px;
   align-items: center;
 }
-header > div > div > a > img {
+
+header>div>div>img {
   width: 117px;
   height: 109px;
   margin-left: 134px;
 }
-header > div > div > div > a {
+
+header>div>div>div>a {
   text-decoration: none;
   color: black;
   font-size: 36px;
   margin-left: 50px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-.Bold > a {
-  font-size: 46px;
-  font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-header > nav > ul {
+.Bold>a {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+header>nav>ul {
   display: flex;
   width: auto;
   align-items: center;
 }
-header > nav > ul > li {
+
+header>nav>ul>li {
   list-style: none;
   padding-right: 50px;
   font-size: 36px;
   z-index: 5;
 }
-header > nav > ul > li > a {
+
+header>nav>ul>li>a {
   text-decoration: none;
   color: #534031;
 }
-.minilogo{display: none;}
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 nav a {
   display: block;
   text-decoration: none;
   outline: none;
   transition: 0.4s ease-in-out;
 }
-#menu{display: none;}
-.meny{display: none;}
+
 .topmenu {
   backface-visibility: hidden;
   background: #c6af97;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-margin-right: 60px;
-  }
-.topmenu > li {
+}
+
+.topmenu>li {
   display: inline-block;
   position: relative;
 }
-.topmenu > li > a {
+
+.topmenu>li>a {
+  font-weight: bold;
   text-transform: uppercase;
 }
+
 .down:after {
   margin-left: 8px;
 }
+
 .topmenu li a:hover {
   color: white;
 }
+
+.minilogo {
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+
 .submenu {
   background: #c8c495;
   position: absolute;
   left: 0;
-  top: 89px;
+  top: 80px;
   visibility: hidden;
   opacity: 0;
   z-index: 5;
@@ -101,12 +116,29 @@ margin-right: 60px;
   transform-origin: 0% 0%;
   transition: 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.topmenu > li:hover .submenu {
+
+.topmenu>li:hover .submenu {
   visibility: visible;
   opacity: 1;
   transform: perspective(600px) rotateX(0deg);
 }
-.submenu > li > a {
+
+.submenu>li>a {
+  color: #3f3c0f;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 0 25px;
+  font-family: "Kurale", serif;
+  padding-top: 10px;
+}
+
+.topmenu>li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: perspective(600px) rotateX(0deg);
+}
+
+.submenu>li>a {
   color: #3f3c0f;
   font-size: 30px;
   line-height: 36px;
@@ -116,40 +148,40 @@ margin-right: 60px;
 }
 
 footer {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-display: flex;
-height: 200px;
-width: 100%;
-background-color: #674b36;
-position: absolute;
-top: 2950px;
-align-items: center;
-justify-content: space-between;
-}
-.foot-text {
-margin-left: 116px;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background-color: #674b36;
+  position: absolute;
+  top: 2700px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-footer > div > div > a {
-color: #c6af97;
-text-decoration: none;
-font-size: 32px;
+.foot-text {
+  margin-left: 116px;
 }
-.soc-seti > div {
-display: flex;
-margin-right: 116px;
-margin-top: 10px;
+
+footer>div>div>a {
+  color: #c6af97;
+  text-decoration: none;
+  font-size: 32px;
 }
-.soc-seti > div > p {
-font-size: 32px;
-color: #c6af97;
+
+.soc-seti>div {
+  display: flex;
+  margin-right: 116px;
+  margin-top: 10px;
 }
-.soc-seti > div > div {
-padding-left: 20px;
+
+.soc-seti>div>p {
+  font-size: 32px;
+  color: #c6af97;
 }
-.vk_mini{display: none;}
-.insta_mini{display: none;}
-.tg_mini{display: none;}
+
+.soc-seti>div>div {
+  padding-left: 20px;
+}
 
 .Koshka {
   background-color: #ede7e7;
@@ -238,4 +270,298 @@ padding-left: 20px;
 .link {
   text-decoration: none;
   color: #3f3c0f;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  background-color: #674b36;
+  top: 3000px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot-text {
+  margin-left: 116px;
+}
+
+footer>div>div>a {
+  color: #c6af97;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: "Mulish", sans-serif;
+}
+
+.soc-seti>div {
+  display: flex;
+  margin-right: 116px;
+  margin-top: 10px;
+}
+
+.soc-seti>div>p {
+  font-size: 32px;
+  color: #c6af97;
+  font-family: "Mulish", sans-serif;
+}
+
+.soc-seti>div>div {
+  padding-left: 20px;
+}
+
+
+.vk_mini {
+  display: none;
+}
+
+.tg_mini {
+  display: none;
+}
+
+.insta_mini {
+  display: none;
+}
+
+@media (max-width: 395px) {
+  header>div>div>a>img {
+    width: 53px;
+    height: 49px;
+    margin-top: 3px;
+    margin-left: 15px;
+  }
+
+  header>div>div>div>a {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    margin-left: 23px;
+  }
+
+  header {
+    height: 75px;
+  }
+
+  .head {
+    height: 75px;
+  }
+
+  .Bold>a {
+    font-size: 20px;
+    margin-left: 23px;
+  }
+
+  .minilogo {
+    display: block;
+    width: 53px;
+    height: 49px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .topmenu {
+    display: none;
+  }
+
+  .meny {
+    display: block;
+    margin-left: 15px;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    top: 19px;
+    left: 324px;
+  }
+
+  .menu li {
+    list-style: none;
+    position: relative;
+    font-size: 12px;
+    background-color: #c6af97;
+  }
+
+  .menu a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    height: 40px;
+
+  }
+
+  .menu ul {
+    margin-top: 11px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+    display: none;
+    padding: 0;
+  }
+
+
+  .menu li:hover>ul {
+    display: block;
+  }
+
+  .menu ul ul {
+    margin-top: -40px;
+    display: none;
+    position: absolute;
+    left: -81px;
+  }
+
+  #pod-menu li {
+    margin-left: 16px;
+  }
+
+  nav>div>a {
+    display: flex;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 395px) {
+  .Vozmi {
+    padding-top: 10px;
+  }
+
+  .Vozmi>p {
+    font-size: 23px;
+  }
+
+  .Vozmi>img {
+    width: 280px;
+    height: 146px;
+  }
+
+  .vozmi {
+    font-size: 11.19px;
+    width: 380px;
+    font-weight: 800;
+  }
+
+  .Text1 {
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-left: 15px;
+    gap: 10px;
+  }
+
+  .Text1-2 {
+    font-size: 11.19px;
+    font-weight: 600;
+    width: 380px;
+  }
+
+  .Koshka {
+    height: 1000px;
+  }
+}
+
+
+
+@media (max-width: 395px) {
+  .button {
+    margin-left: 135px;
+    margin-top: -75px;
+  }
+
+  .button1 {
+    width: 126px;
+    height: 43px;
+    font-size: 14.91px;
+  }
+
+  .img {
+    width: 395px;
+    margin-top: 0px;
+    margin-left: 0px;
+    top: 60px;
+    left: 10px;
+  }
+
+  .img>img {
+    width: 375px;
+    height: 140px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 395px) {
+  footer {
+    z-index: 10;
+    height: 88px;
+    top: 1025px;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  footer>div>div>a {
+    color: #c6af97;
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .vk_mini {
+    display: block;
+  }
+
+  .vk {
+    display: none;
+  }
+
+  .insta_mini {
+    display: block;
+  }
+
+  .insta {
+    display: none;
+  }
+
+  .tg_mini {
+    display: block;
+  }
+
+  .tg {
+    display: none;
+  }
+
+  .soc-seti>div>p {
+    font-size: 13px;
+  }
+
+  .foot-text {
+    margin-left: 0px;
+  }
+
+  .soc-seti>div {
+    margin-right: 1px;
+  }
+
+  .soc-seti>div>div {
+    padding-left: 5px;
+  }
 }
